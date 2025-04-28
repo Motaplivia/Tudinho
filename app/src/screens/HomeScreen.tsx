@@ -324,7 +324,7 @@ export default function HomeScreen() {
     <TouchableOpacity
       style={styles.taskItem}
       onPress={() => router.push({
-        pathname: '/task-detail',
+        pathname: '/src/screens/TaskDetailScreen',
         params: { taskId: task.id }
       })}
     >
